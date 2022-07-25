@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+/* HEADER DESIGN */
+.navigator{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #f3f3f3;
+}
+.leftNav{
+  display: flex;
+  align-items: center;
+}
+.leftNavLogo h1{
+  font-family: sans-serif;
+}
+.nav-links ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links ul li{
+  list-style: none;
+  margin: 0 0 0 60px;
+}
+.nav-links ul li a ,.info .job h2{
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-style: normal;
+}
+.rightNav{
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+#pht{
+  margin-left: 50px;
+}
+.rightNav input{
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  width: 439px;
+  height: 43px;
+  outline: none;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9C9FA4;
+}
+/* IMAGE PART */
+.imagePart{
+  margin: 50px 80px 0 100px;
+}
+.imagePart img{
+  width: 1300px;
+  height: 279px;
+}
+.info{
+    margin: 50px 80px 0 100px;
+}
+.info .job{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.info .job button{
+  cursor: pointer;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 40px;
+  border: 1px solid #EB5757;
+  background: #EB5757;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+.info .job h2{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+}
+.info .btn{
+  float: right;
+  margin-right: 50px;
+}
+.info .btn button{
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #B3ADAD;
+  color: #000;
+}
+.text{
+  position: absolute;
+  display: flex;
+  margin-top: 60px;
+}
+.text p{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;  
+  color: #828282;
+}
+/* OVERVIEW PART */
+.overview{
+  margin: 200px 80px 0 100px;
+}
+.overview h4{
+  font-weight: 600;
+  font-size: 20px;
+}
+.overviewText{
+  width: 1300px;
+  margin-top: 20px;
+}
+.overviewText p{
+  font-weight: 600;
+  font-size: 16px;
+  color: #828282;
+  line-height: 24px;
+}
+.overviewBtn{
+  margin-top: 20px;
+}
+.overviewBtn button{
+  cursor: pointer;
+  width: 1300px;
+  height: 48px;  
+  background-color: #6FCF97;
+  border: 1px solid #6FCF97;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}

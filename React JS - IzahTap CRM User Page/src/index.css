@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+body{
+  background-color: #F6F7FB;
+}
+/* SIDEBAR PART */
+.sideBar{
+  position: absolute;
+  width: 305px;
+  height: 943px;
+  left: 0px;
+  top: 81px;
+  background-color: #323A52;
+  border-radius: 0px 20px 20px 0px;
+}
+.navigatorUp{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 20px 0 0 29px;
+}
+.nav-links ul{
+  display: inline-block;
+  list-style: none;
+}
+.nav-links ul li{
+  padding: 10px;
+}
+.nav-links ul li a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;  
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.nav-links ul li a i{
+  margin: 0 20px 0 0;
+}
+.navigatorBottom{
+  margin: 50px 0 0 29px;
+}
+.nav-header h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.navigatorBottom .nav-links{
+  margin-top: 20px;
+}
+/* RIGHTBAR PART */
+.rightBar{
+  margin: 81px 0 0 350px;
+  justify-items: center;
+  align-items:   center;
+  width: 1064px;
+  height: 802px;
+  background-color: #FFFFFF;
+}
+.header{
+  position: absolute;
+  display: flex;
+  width: 1064px;
+  height: 60px;
+  border-bottom: 1px solid rgb(225, 225, 225);
+}
+.navi{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.navLink ul{
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0 0 0 10px;
+}
+.navLink ul li{
+  padding: 20px;
+}
+.navLink ul li a{
+  text-decoration: none;
+  color: rgb(225, 225, 225);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.navLink ul li a i{
+  margin: 0 10px 0 0;
+}
+/* PHOTO PART */
+.photoPart{
+  position: absolute;
+  display: flex;
+  margin: 100px 0 0 30px;
+}
+.profilePhoto img{
+  width: 100px;
+  height: 120px;
+}
+.profileButton{
+  display: inline-block; 
+  padding: 15px 0 0 30px;
+}
+.profileButton button{
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: purple;
+  color: #FFFFFF;
+  border: 1px solid purple;
+  border-radius: 5px;
+}
+.profileButton p{
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #dfdfdf;
+}
+/* FORM PART */
+.formPart{
+  position: absolute;
+  margin: 270px 0 0 ;
+}
+
+.formPart{
+  padding:1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem;
+  border-radius: .5rem;
+}
+.formPart form{
+  flex:1 1 50rem;
+  padding:1rem;
+}
+.formPart form .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+.formPart form .inputBox input, .formPart form textarea ,.inputBox select{
+  padding:1rem;
+  margin:1rem 0;
+  font-size: 1.1rem;
+  color:#333;
+  text-transform: none;
+  border:.1rem solid rgba(0,0,0,.3);
+  border-radius: .5rem;
+  width:49%;
+}
+.formPart form button{
+  display: inline-block;
+  padding:.8rem 3rem;
+  border: 1px solid purple;
+  background-color: purple;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+#cancel{
+  margin-left: 20px;
+  background-color: transparent;
+  border: 1px solid #c5c5c5;
+  color: #c5c5c5;
+}
